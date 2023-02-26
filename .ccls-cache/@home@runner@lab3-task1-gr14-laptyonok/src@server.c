@@ -5,6 +5,7 @@
 //  implementation of interface.h functions
 
 #include "interface.h"
+#include <stdio.h>
 
 // letter_in_a_sentence function calculates and return the quantities of some
 // letter in a sentence
