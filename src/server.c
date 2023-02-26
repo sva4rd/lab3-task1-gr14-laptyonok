@@ -19,3 +19,9 @@ int letter_in_a_sentence(const char letter, char *str) {
   }
   return count;
 }
+
+int calc_letter(const char letter, char *str1, char *str2, char *str3) {
+  return letter_in_a_sentence(letter, str1) +
+         letter_in_a_sentence(letter, str2) +
+         letter_in_a_sentence(letter, str3);
+}
