@@ -10,3 +10,12 @@
 // letter in a sentence
 
 int letter_in_a_sentence(const char letter, char *str);
+
+int letter_in_a_sentence(const char letter, char *str) {
+  int count = 0;
+  for (int i = 0; str[i] != '\0'; i++) {
+    if (str[i] == letter)
+      count++;
+  }
+  return count;
+}
